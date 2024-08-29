@@ -21,5 +21,10 @@ What is included.
 3. On clicking sign in a mock service layer is invoked to receive a user object.
 4. The screen maintains two states - one for phone input and the second for otp input.
 
+Screens
 
+![Screenshot](https://github.com/user-attachments/assets/06b83a8f-f323-4c1d-99e8-a49795a56cc2)
+
+
+https://github.com/user-attachments/assets/3768d247-e732-4eb1-b23c-8819031e589d
 
