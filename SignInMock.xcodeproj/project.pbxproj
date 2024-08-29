@@ -23,6 +23,7 @@
 		2BDD9E202C80729900ABBACA /* SignInAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD9E1F2C80729900ABBACA /* SignInAPIHandler.swift */; };
 		2BDD9E222C8072BA00ABBACA /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD9E212C8072BA00ABBACA /* SignInModel.swift */; };
 		2BDD9E262C80856900ABBACA /* SignInViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD9E252C80856900ABBACA /* SignInViewModelTests.swift */; };
+		431748762C80B41300250580 /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 431748752C80B41300250580 /* Screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		2BDD9E1F2C80729900ABBACA /* SignInAPIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAPIHandler.swift; sourceTree = "<group>"; };
 		2BDD9E212C8072BA00ABBACA /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
 		2BDD9E252C80856900ABBACA /* SignInViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModelTests.swift; sourceTree = "<group>"; };
+		431748742C80B3F800250580 /* ScreenRecording.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ScreenRecording.mp4; sourceTree = "<group>"; };
+		431748752C80B41300250580 /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		2BDD9DE22C80320500ABBACA /* SignInMock */ = {
 			isa = PBXGroup;
 			children = (
+				431748732C80B3E300250580 /* MockSS */,
 				2BDD9E172C80564C00ABBACA /* Reusable */,
 				2BDD9E0F2C80323700ABBACA /* Modules */,
 				2BDD9DE32C80320500ABBACA /* SignInMockApp.swift */,
@@ -216,6 +220,15 @@
 				2BDD9E212C8072BA00ABBACA /* SignInModel.swift */,
 			);
 			path = SignIn;
+			sourceTree = "<group>";
+		};
+		431748732C80B3E300250580 /* MockSS */ = {
+			isa = PBXGroup;
+			children = (
+				431748752C80B41300250580 /* Screenshot.png */,
+				431748742C80B3F800250580 /* ScreenRecording.mp4 */,
+			);
+			path = MockSS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BDD9DED2C80320700ABBACA /* Preview Assets.xcassets in Resources */,
+				431748762C80B41300250580 /* Screenshot.png in Resources */,
 				2BDD9DEA2C80320700ABBACA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
